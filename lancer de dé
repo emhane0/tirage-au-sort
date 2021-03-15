@@ -1,0 +1,30 @@
+import random
+bvr = 0
+un = 0
+deux = 0
+trois = 0
+quatre = 0
+cinque = 0
+six = 0
+brr = 0
+while bvr < 100:
+    brg = random.randint(1, 6)
+    bvr = bvr + 1
+    if brg == 1:
+        un = un + 1
+    if brg == 2:
+        deux = deux + 1
+    if brg == 3:
+        trois = trois + 1
+    if brg == 4:
+        quatre = quatre + 1
+    if brg == 5:
+        cinque = cinque + 1
+    if brg == 6:
+        six = six + 1
+print("le relsulta de un est", un)
+print("le relsulta de deux est", deux)
+print("le relsulta de trois est", trois)
+print("le relsulta de quatre est", quatre)
+print("le relsulta de cinque est", cinque)
+print("le relsulta de six est", six)
